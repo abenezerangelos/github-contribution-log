@@ -1,7 +1,7 @@
 # github-contribution-log
 
  Contribution [#]: Replace angle brackets in the Amharic translation of README #118481
- 
+
 Contribution Number: [1 ]  
 Student: [Ebenezer Abate]  
 Issue:  https://github.com/firstcontributions/first-contributions/issues/118481 
@@ -18,18 +18,21 @@ First and foremost I chose this issue since this the main languagen my native on
 
  Understanding the Issue
  Problem Description
-[In your own words, what's broken or missing?]
+
+The problem here is that the  brackets we are using  to enclose the text 'your username' and what happens is that the editor confuses the bracket enclosed region for code which basically then doesn't display or show it 
 
  Expected Behavior
-[What should happen?]
+The expected behavior would be that the 'your username' would properly display within the proper place that it has to show up in and that would be in the push repository chapter of the Amharic translation of the Readme file 
 
  Current Behavior
-[What actually happens?]
+What currently takes place is that the 'your username' text doesn't actually display since it is taken to display as a code due to the brackets surrounding it
 
  Affected Components
-[Which parts of the codebase are involved?]
 
----
+
+
+
+It seems that the only affected components are actually the readme file.
 
  Reproduction Process
  Environment Setup
@@ -86,16 +89,13 @@ Evaluate: [How will you verify it works?]
 
 Test case 1: [Description]
 
-
 Test case 2: [Description]
-
 
 Test case 3: [Description]
 
  Integration Tests
 
 Integration scenario 1
-
 
 Integration scenario 2
 
@@ -153,4 +153,3 @@ Status: [Awaiting review / Iterating / Approved / Merged]
 [Tutorial or Stack Overflow post that helped]
 
 [GitHub issues or discussions that helped]
-
